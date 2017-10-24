@@ -1,1 +1,7 @@
-SEARCH
+<h1>HeadyBeats</h1>
+<p class="lead">Spotify and Soundcloud, in the same place.</p>
+<form>
+  <div class="form-group">
+    <input type="text" name="search" [(ngModel)]="searchStr" (keyup)="searchMusic()" class="form-control" placeholder="search music...">
+  </div>
+</form>
